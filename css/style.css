@@ -429,8 +429,6 @@ section {
 }
 
 .red-glb {
-  top: 20%;
-  position: sticky;
   height: 600px;
   width: 600px;
   border-radius: 50%;
@@ -495,8 +493,6 @@ section {
 }
 
 .grn-glb {
-  top: 20%;
-  position: sticky;
   height: 600px;
   width: 600px;
   border-radius: 50%;
