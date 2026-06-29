@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+.grn-wrap {
+  width: 100%;
+  height: 10%;
+  overflow: hidden;
+}
+
+.loop-slider-track {
+  height: 100%;
+  display: flex;
+  width: max-content;
+  animation: loop-scroll 50s linear infinite;
+}
+
+.reverse {
+  animation: loop-scroll-reverse 50s linear infinite;
+}
+
+.wrap-item {
+  width: 300px;
+  height: 100%;
+  flex-shrink: 0;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@keyframes loop-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes loop-scroll-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.logo1 {
+  background-image: url(../images/logo_01.png);
+}
+.logo2 {
+  background-image: url(../images/logo_02.png);
+}
+.logo3 {
+  background-image: url(../images/logo_03.png);
+}
+.logo4 {
+  background-image: url(../images/logo_04.png);
+}
+.logo5 {
+  background-image: url(../images/logo_05.png);
+}
+.logo6 {
+  background-image: url(../images/logo_06.png);
+}
+.logo7 {
+  background-image: url(../images/logo_07.png);
+}
+.logo8 {
+  background-image: url(../images/logo_08.png);
+}
+.logo9 {
+  background-image: url(../images/logo_09.png);
+}
+.logo10 {
+  background-image: url(../images/logo_10.png);
+}
+.logo11 {
+  background-image: url(../images/logo_11.png);
+}
+.logo12 {
+  background-image: url(../images/logo_12.png);
+}
+.logo13 {
+  background-image: url(../images/logo_13.png);
+}
+.logo14 {
+  background-image: url(../images/logo_14.png);
+}
+.logo15 {
+  background-image: url(../images/logo_15.png);
+}
+.logo16 {
+  background-image: url(../images/logo_16.png);
+}
+.logo17 {
+  background-image: url(../images/logo_17.png);
+}
+.logo18 {
+  background-image: url(../images/logo_18.png);
+}
