@@ -192,8 +192,10 @@ section {
 .blue-glb {
   height: 600px;
   width: 600px;
-  border-radius: 50%;
-  background-color: var(--blue-color);
+  background-image: url(../images/blueellipse.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -223,6 +225,7 @@ section {
 }
 
 .org-txtbox {
+  margin-left: 50px;
   height: 100%;
   width: 600px;
 }
@@ -281,12 +284,14 @@ section {
 }
 
 .org-glb {
-  top: 20%;
+  top: 0;
   position: sticky;
   height: 600px;
   width: 600px;
-  border-radius: 50%;
-  background-color: var(--orange-color);
+  background-image: url(../images/orgellipse.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 250px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -353,6 +358,7 @@ section {
 }
 
 .red-txtbox {
+  margin-right: 50px;
   height: 500px;
   width: 600px;
 }
@@ -431,8 +437,10 @@ section {
 .red-glb {
   height: 600px;
   width: 600px;
-  border-radius: 50%;
-  background-color: var(--red-color);
+  background-image: url(../images/redellipse.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -444,6 +452,7 @@ section {
 }
 
 #green {
+  padding-top: 50px;
   height: 100dvh;
   display: inline-block;
   justify-content: center;
@@ -495,8 +504,10 @@ section {
 .grn-glb {
   height: 600px;
   width: 600px;
-  border-radius: 50%;
-  background-color: var(--green-color);
+  background-image: url(../images/grnellipse.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 300px;
   display: flex;
   justify-content: center;
   align-items: center;
