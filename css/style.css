@@ -453,6 +453,7 @@ section {
 
 #green {
   padding-top: 50px;
+  padding-bottom: 10px;
   height: 100dvh;
   display: inline-block;
   justify-content: center;
@@ -516,12 +517,6 @@ section {
 .grnglb {
   width: 750px;
   height: 750px;
-}
-
-.main-txt {
-  font-family: var(--main-font);
-  color: var(--font-color);
-  font-size: 100px;
 }
 
 #footer {
