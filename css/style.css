@@ -71,10 +71,11 @@ body {
 .logo {
   width: 100px;
   height: 100%;
-  background-image: url(../images/sisyou_color.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+}
+
+.logo img{
+  height: 100%;
+  width: auto;
 }
 
 .nav {
