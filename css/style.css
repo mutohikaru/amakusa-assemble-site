@@ -52,7 +52,6 @@ body {
   position: relative;
   font-family: var(--main-font);
   background-color: var(--back-color);
-  font-weight: 700;
 }
 
 #header {
@@ -577,6 +576,7 @@ section {
   display: inline-block;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
 }
 
 .grn-ctt {
@@ -644,6 +644,7 @@ section {
   height: 100dvh;
   background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(5px);
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
