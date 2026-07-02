@@ -13,7 +13,7 @@
   </head>
   <body>
     <header id="header">
-      <div class="logo"></div>
+      <a href="#hero"><div class="logo"></div></a>
       <div class="nav">
         <div class="nbtn1"><a href="#blue">about</a></div>
         <div class="nbtn2"><a href="#orange">インタビュー</a></div>
@@ -25,6 +25,13 @@
 
     <div id="hero">
       <div class="herotxt"></div>
+    </div>
+    <div class="back-content-wrapper">
+      <div class="blue-back"></div>
+      <div class="red-back"></div>
+    </div>
+    <div class="back-content-wrapper-org">
+      <div class="org-backbox"><div class="org-back"></div></div>
     </div>
     <div class="content-wrapper">
       <section id="blue">
@@ -39,9 +46,10 @@
               市外の企業・個人の皆様、天草で活動しませんか？<br />
               「デジタルアートの島創造事業」をご紹介します。
             </div>
-            <div class="blue-btn">
-              くわしく
-              <div class="arrow1">→</div>
+
+            <div class="blue-btnbox">
+              <div class="blue-btntxt">詳しくはこちら</div>
+              <div class="blue-btn">→</div>
             </div>
           </div>
           <div class="blue-glb"><model-viewer camera-orbit="10deg auto 100%" camera-controls disable-zoom disable-tap interaction-prompt="none" class="blueglb" src="images/blueglb.glb" alt="alt message"></model-viewer></div>
@@ -99,9 +107,9 @@
               市外の企業・個人の皆様、天草で活動しませんか？<br />
               「デジタルアートの島創造事業」をご紹介します。
             </div>
-            <div class="org-btn">
-              くわしく
-              <div class="arrow2">→</div>
+            <div class="org-btnbox">
+              <div class="org-btntxt">詳しくはこちら</div>
+              <div class="org-btn">→</div>
             </div>
           </div>
         </div>
@@ -117,24 +125,31 @@
               併せて、幅広い世代へのデジタル教育も展開し、<br />
               地域全体でクリエイティブ人材を輩出します。
             </div>
-            <div class="red-imgwapper">
-              <div class="red-imgbox">
-                <div class="red-img1"></div>
-                <div class="red-imgtxt">企業誘致PRムービー</div>
-              </div>
-              <div class="red-imgbox">
-                <div class="red-img2"></div>
-                <div class="red-imgtxt">
-                  天草工業高校情報技術科CG系列<br />
-                  PRムービー（短編）
+
+            <div class="carousel-wrapper">
+              <div class="carousel-container" id="carousel">
+                <div class="carousel-item">
+                  <iframe src="https://www.youtube.com/embed/0M3ibha7AAc?si=i1SVPNWB3lXl0JX6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <div class="item-txt">企業誘致PRムービー</div>
+                </div>
+                <div class="carousel-item">
+                  <iframe src="https://www.youtube.com/embed/Kei5kT_TGsc?si=U2SDCyJpml812fce" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <div class="item-txt">
+                    天草工業高校情報技術科CG系列<br />
+                    PRムービー（短編）
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe src="https://www.youtube.com/embed/Chzfc7JA5rM?si=aOA2y2D3mDCFWwcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <div class="item-txt">
+                    天草工業高校情報技術科CG系列<br />
+                    PRムービー（本編
+                  </div>
                 </div>
               </div>
-              <div class="red-imgbox">
-                <div class="red-img2"></div>
-                <div class="red-imgtxt">
-                  天草工業高校情報技術科CG系列<br />
-                  PRムービー（本編）
-                </div>
+              <div class="carousel-btnbox">
+                <button class="nav-btn prev" onclick="moveCarousel(-1)">&#10094;</button>
+                <button class="nav-btn next" onclick="moveCarousel(1)">&#10095;</button>
               </div>
             </div>
           </div>
