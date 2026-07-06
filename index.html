@@ -12,6 +12,13 @@
     <link rel="stylesheet" href="css/a-modern-css-reset.css" />
   </head>
   <body>
+    <div class="slide-overlay js-slide-overlay">
+      <div class="close-btnbox"><div class="close-btn js-slide-close">&#10094;</div></div>
+      <div class="slide-overlay-content">
+        <h2>スライド画面</h2>
+        <p>ここに表示させたい内容を記述します。</p>
+      </div>
+    </div>
     <header id="header">
       <div class="logo">
         <a href="#hero"><img src="images/sisyou_color.svg" alt="天草市市章" /></a>
@@ -50,8 +57,8 @@
             </div>
 
             <div class="blue-btnbox">
-              <div class="blue-btntxt">詳しくはこちら</div>
-              <div class="blue-btn">→</div>
+              <div class="blue-btntxt js-slide-open">詳しくはこちら</div>
+              <div class="blue-btn">&#10095;</div>
             </div>
           </div>
           <div class="blue-glb"><model-viewer camera-orbit="10deg auto 100%" camera-controls disable-zoom disable-tap interaction-prompt="none" class="blueglb" src="images/blueglb.glb" alt="alt message"></model-viewer></div>
@@ -111,7 +118,7 @@
             </div>
             <div class="org-btnbox">
               <div class="org-btntxt">詳しくはこちら</div>
-              <div class="org-btn">→</div>
+              <div class="org-btn">&#10095;</div>
             </div>
           </div>
         </div>
