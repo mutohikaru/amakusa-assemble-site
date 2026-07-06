@@ -46,6 +46,17 @@ model-viewer::part(default-progress-bar) {
   display: none;
 }
 
+/* ページ全体のスクロールバーを非表示にする */
+html{
+  -ms-overflow-style: none; /* IE, Edge（レガシー）対応 */
+  scrollbar-width: none; /* Firefox対応 */
+}
+
+/* WebKit系ブラウザ（Chrome, Safari, 新Edgeなど）対応 */
+html::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   width: 100%;
   height: 100%;
@@ -313,7 +324,7 @@ section {
   background-image: url(../images/blueellipse.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center 300px;
+  background-position: center 350px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -414,7 +425,7 @@ section {
   background-image: url(../images/orgellipse.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center 250px;
+  background-position: center 350px;
   display: flex;
   justify-content: center;
   align-items: center;
