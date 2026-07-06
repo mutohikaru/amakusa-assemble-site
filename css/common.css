@@ -1,5 +1,60 @@
 @charset "UTF-8";
 
+/* オーバーレイの初期状態（画面の右外に配置） */
+.slide-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff; /* 任意の背景色 */
+  z-index: 9999; /* 一番手前に表示 */
+
+  /* 右方向に100%（画面幅分）ずらして画面外に隠す */
+  transform: translateX(100%);
+
+  /* スッと動くアニメーションの速度と滑らかさ */
+  transition: transform 0.4s ease-in-out;
+}
+
+/* JavaScriptでクラスが付与されたら、画面にスライドイン */
+.slide-overlay.is-active {
+  transform: translateX(0);
+}
+
+/* オーバーレイの中身のレイアウト（お好みで調整してください） */
+.slide-overlay-content {
+  height: 90%;
+  width: 100%;
+  /* 画面より中身が長い場合はスクロールできるようにする */
+  overflow-y: auto;
+}
+
+.close-btnbox {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+/* 戻るボタンの簡単な装飾（必要に応じて変更してください） */
+.close-btn {
+  margin-left: 50px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: var(--blue-color);
+  font-size: 50px;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
 .grn-wrap {
   width: 100%;
   height: 10%;
