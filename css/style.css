@@ -46,8 +46,12 @@ model-viewer::part(default-progress-bar) {
   display: none;
 }
 
+model-viewer{
+  cursor: all-scroll !important;
+}
+
 /* ページ全体のスクロールバーを非表示にする */
-html{
+html {
   -ms-overflow-style: none; /* IE, Edge（レガシー）対応 */
   scrollbar-width: none; /* Firefox対応 */
 }
@@ -63,7 +67,7 @@ body {
   position: relative;
   font-family: var(--main-font);
   background-color: var(--back-color);
-  font-weight:var(--heavy-weight);
+  font-weight: var(--heavy-weight);
 }
 
 #header {
@@ -84,7 +88,7 @@ body {
   height: 100%;
 }
 
-.logo img{
+.logo img {
   height: 100%;
   width: auto;
 }
@@ -107,7 +111,6 @@ body {
   left: 0;
   width: 100%;
   height: 100dvh;
-  /* z-index: -10; */
 }
 
 #hero {
@@ -284,7 +287,7 @@ section {
   margin-top: 40px;
   font-size: 14px;
   line-height: 28px;
-  font-weight: var(--nomal-weight);
+  font-weight: var(--bold-weight);
 }
 
 .blue-btnbox {
@@ -383,7 +386,15 @@ section {
   margin-top: 40px;
   font-size: 14px;
   line-height: 28px;
-  font-weight: var(--nomal-weight);
+  font-weight: var(--bold-weight);
+}
+
+.org-txtttl {
+  font-weight: var(--heavy-weight);
+}
+
+.txtback-org {
+  background: linear-gradient(to bottom, transparent 50%, var(--orange-color) 50%);
 }
 
 .org-btnbox {
@@ -474,6 +485,11 @@ section {
   z-index: 5;
 }
 
+.org-imgtxt {
+  font-weight: var(--bold-weight);
+  color: rgb(120, 120, 120);
+}
+
 #red {
   height: var(--red-hight);
   display: flex;
@@ -520,7 +536,7 @@ section {
   margin-top: 40px;
   font-size: 14px;
   line-height: 28px;
-  font-weight: var(--nomal-weight);
+  font-weight: var(--bold-weight);
 }
 
 .red-imgwapper {
@@ -631,7 +647,7 @@ section {
   margin-top: 40px;
   font-size: 14px;
   line-height: 28px;
-  font-weight: var(--nomal-weight);
+  font-weight: var(--bold-weight);
 }
 
 .grn-glb {
