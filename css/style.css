@@ -563,7 +563,7 @@ section {
   }
 
   .blue-txtbox {
-    height: 400px;
+    height: 450px;
     width: 100%;
   }
 
@@ -590,7 +590,7 @@ section {
   }
 
   .blue-btnbox {
-    margin-top: 50px;
+    margin-top: 20px;
     height: 70px;
     width: 300px;
     display: flex;
@@ -838,7 +838,7 @@ section {
   }
 
   .org-btnbox {
-    margin-top: 50px;
+    margin-top: 20px;
     height: 70px;
     width: 300px;
     display: flex;
