@@ -31,7 +31,6 @@
     --blue-hight: 1000px;
     --orange-hight: 2800px;
     --red-hight: 2200px;
-    --green-hight: 100dvh;
   }
 }
 
@@ -647,7 +646,6 @@ section {
 
 @media screen and (max-width: 500px) {
   #orange {
-    height: 300dvh;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -876,6 +874,10 @@ section {
   color: var(--red-color);
 }
 
+.movie-box {
+  display: none;
+}
+
 .red-glb {
   height: 600px;
   width: 600px;
@@ -895,7 +897,6 @@ section {
 
 @media screen and (max-width: 500px) {
   #red {
-    height: 200dvh;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -958,6 +959,29 @@ section {
   .red-imgtxt {
     margin-top: 5px;
     font-size: 12px;
+  }
+
+  .movie-box {
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .movie-item {
+    height: 33%;
+    width: 80%;
+    text-align: left;
+    color: var(--red-color);
+  }
+
+  .movie-item iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 20px;
+    display: block;
   }
 
   .red-glb {

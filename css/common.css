@@ -554,35 +554,9 @@ body.no-scroll {
   background-color: var(--red-color);
 }
 
-.movie-box {
-  display: none;
-}
-
 @media screen and (max-width: 500px) {
   .carousel-wrapper {
     display: none;
   }
 
-  .movie-box {
-    height: 900px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .movie-item {
-  height: 33%;
-  width: 80%;
-  text-align: left;
-  color: var(--red-color);
-}
-
-.movie-item iframe {
-  width: 100%;
-  aspect-ratio: 16/9;
-  border-radius: 20px;
-  display: block;
-}
 }
