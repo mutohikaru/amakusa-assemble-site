@@ -155,8 +155,9 @@ body {
   .herotxt {
     width: 100%;
     height: 200px;
-    bottom: 100px;
+    bottom: 10px;
     left: 0;
+    background-image: url(../images/tagline_b.svg);
   }
 }
 
