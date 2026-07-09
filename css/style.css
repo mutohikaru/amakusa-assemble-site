@@ -48,6 +48,17 @@ a:visited {
   text-decoration: none;
 }
 
+@media screen and (max-width: 500px) {
+  a:link {
+    color: #fff;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
 a:hover {
   color: orange;
 }
@@ -116,9 +127,138 @@ body {
   align-items: center;
 }
 
+.sp-logo {
+  display: none;
+  top: 10px;
+  left: 10px;
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  z-index: 50;
+}
+
+.sp-logo img {
+  height: 100%;
+  width: auto;
+}
+
+/* ボタンの基本設定 */
+.hamburger-btn {
+  display: none;
+  position: fixed;
+  top: 20px;
+  right: 0;
+  z-index: 205; /* ナビゲーションより常に上に配置 */
+  width: 100px;
+  height: 50px;
+  border-radius: 25px 0 0 25px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+}
+
+/* 2本の横線 */
+.hamburger-line {
+  position: absolute;
+  left: 20px;
+  height: 2px;
+  background-color: var(--blue-color);
+  transition:
+    transform 0.3s ease-in-out,
+    top 0.3s ease-in-out;
+}
+
+/* 2本線の初期位置 */
+.hamburger-line:first-child {
+  top: 18px;
+  width: 60px;
+}
+.hamburger-line:last-child {
+  top: 28px;
+  width: 30px;
+}
+
+/* バツ印への変化（アクティブ時） */
+.hamburger-btn.is-active .hamburger-line:first-child {
+  top: 24px;
+  width: 30px;
+  transform: rotate(45deg);
+}
+.hamburger-btn.is-active .hamburger-line:last-child {
+  top: 24px;
+  width: 30px;
+  transform: rotate(-45deg);
+}
+
+/* ナビゲーション画面 */
+.sp-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100dvh;
+  background-color: var(--blue-color);
+  color: #fff;
+  z-index: 200; /* ボタンの1つ下に配置 */
+  transform: translateX(100%); /* 初期状態は右画面外 */
+  transition: transform 0.4s ease-in-out;
+}
+
+.sp-nav-logo {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.sp-nav-logo img {
+  margin-left: 20px;
+  height: 70px;
+  width: 70px;
+}
+
+.sp-nav-box {
+  padding-top: 100px;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sp-nav-txt{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.sp-nav-subbox {
+  padding-top: 100px;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  font-size: 15px;
+  font-weight:var(--nomal-weight);
+}
+
+/* ナビゲーション表示（アクティブ時） */
+.sp-nav.is-active {
+  transform: translateX(0);
+}
+
 @media screen and (max-width: 500px) {
   #header {
     display: none;
+  }
+
+  .sp-logo {
+    display: block;
+  }
+
+  .hamburger-btn {
+    display: block;
   }
 }
 
