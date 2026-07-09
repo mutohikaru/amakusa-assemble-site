@@ -2,6 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>amakusaLP</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -128,45 +129,47 @@
         </div>
         <div class="blue-tab slide-tab">about</div>
         <div class="blue-slide-ttl slide-ttl2"></div>
-        <div class="blue-slide-box slide-box2">
-          <div class="blue-slide-itm">
-            <div class="blue-itm-ttl blue-font">人材育成</div>
-            <div class="blue-itm-txt">
-              ゲーム・アニメ等の世界観を自ら創造できる力を持った<br />
-              クリエイティブ人材の育成を促進します。<br />
-              天草工業高校情報技術科にCGの学びを新設<br />
-              小中学生・一般向けCG講座、イベントなどの実施<br />
-              高等教育機関の誘致
+        <div class="slide-4box">
+          <div class="blue-slide-box slide-box2">
+            <div class="blue-slide-itm">
+              <div class="blue-itm-ttl blue-font">人材育成</div>
+              <div class="blue-itm-txt">
+                ゲーム・アニメ等の世界観を自ら創造できる力を持った<br />
+                クリエイティブ人材の育成を促進します。<br />
+                天草工業高校情報技術科にCGの学びを新設<br />
+                小中学生・一般向けCG講座、イベントなどの実施<br />
+                高等教育機関の誘致
+              </div>
+            </div>
+            <div class="blue-slide-itm">
+              <div class="blue-itm-ttl blue-font">クリエイター誘致</div>
+              <div class="blue-itm-txt">
+                創造力が高まる制作環境を活かして、<br />市外のクリエイターの誘致を促進します。<br />
+                大学・専門学校と連携した人材獲得<br />
+                クリエイター誘致促進奨励金、視察旅費支援<br />
+                コンテンツ産業創出応援企業の認定、支援
+              </div>
             </div>
           </div>
-          <div class="blue-slide-itm">
-            <div class="blue-itm-ttl blue-font">クリエイター誘致</div>
-            <div class="blue-itm-txt">
-              創造力が高まる制作環境を活かして、<br />市外のクリエイターの誘致を促進します。<br />
-              大学・専門学校と連携した人材獲得<br />
-              クリエイター誘致促進奨励金、視察旅費支援<br />
-              コンテンツ産業創出応援企業の認定、支援
+          <div class="blue-slide-box slide-box2">
+            <div class="blue-slide-itm">
+              <div class="blue-itm-ttl blue-font">企業誘致・集積</div>
+              <div class="blue-itm-txt">
+                市内でデジタルコンテンツ産業の働く場を創出するために、<br />
+                企業誘致、起業促進等に取り組みます。<br />
+                ゲーム・アニメ等制作会社の誘致プロモーション<br />
+                進出企業の定着サポート<br />
+                起業支援プログラム<br />
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="blue-slide-box slide-box2">
-          <div class="blue-slide-itm">
-            <div class="blue-itm-ttl blue-font">企業誘致・集積</div>
-            <div class="blue-itm-txt">
-              市内でデジタルコンテンツ産業の働く場を創出するために、<br />
-              企業誘致、起業促進等に取り組みます。<br />
-              ゲーム・アニメ等制作会社の誘致プロモーション<br />
-              進出企業の定着サポート<br />
-              起業支援プログラム<br />
-            </div>
-          </div>
-          <div class="blue-slide-itm">
-            <div class="blue-itm-ttl blue-font">官民合同事業推進会社の設立</div>
-            <div class="blue-itm-txt">
-              同事業の推進主体として、官民合同で<br />一般社団法人デジタルアート天草を設立・運営します。<br />
-              同事業の総合的な推進機能<br />
-              人材育成機能、都市部と地方の人材還流機能<br />
-              働く場としてCG制作会社機能
+            <div class="blue-slide-itm">
+              <div class="blue-itm-ttl blue-font">官民合同事業推進会社の設立</div>
+              <div class="blue-itm-txt">
+                同事業の推進主体として、官民合同で<br />一般社団法人デジタルアート天草を設立・運営します。<br />
+                同事業の総合的な推進機能<br />
+                人材育成機能、都市部と地方の人材還流機能<br />
+                働く場としてCG制作会社機能
+              </div>
             </div>
           </div>
         </div>
@@ -183,7 +186,7 @@
         <div class="nbtn4"><a href="#green">人材確保の支援</a></div>
       </div>
     </header>
-    <model-viewer camera-orbit="auto 80deg 50%" camera-controls disable-zoom disable-tap interaction-prompt="none" class="heroglb" src="images/main.glb" alt="alt message"></model-viewer>
+    <model-viewer camera-orbit="auto 80deg 50%" camera-controls touch-action="pan-y" disable-zoom disable-tap interaction-prompt="none" class="heroglb" src="images/main.glb" alt="alt message"></model-viewer>
 
     <div id="hero">
       <div class="herotxt"></div>
@@ -214,15 +217,16 @@
               <div class="blue-btn">&#10095;</div>
             </div>
           </div>
-          <div class="blue-glb"><model-viewer camera-orbit="10deg auto 100%" camera-controls disable-zoom disable-tap interaction-prompt="none" class="blueglb" src="images/blueglb.glb" alt="alt message"></model-viewer></div>
+          <div class="blue-glb"><model-viewer camera-orbit="10deg auto 100%" camera-controls touch-action="pan-y" disable-zoom disable-tap interaction-prompt="none" class="blueglb" src="images/blueglb.glb" alt="alt message"></model-viewer></div>
         </div>
       </section>
       <section id="orange">
         <div class="org-ctt">
-          <div class="org-glb"><model-viewer camera-orbit="30deg auto 100%" camera-controls disable-zoom disable-tap interaction-prompt="none" class="orgglb" src="images/orgglb.glb" alt="alt message"></model-viewer></div>
+          <div class="org-glb p-org-glb"><model-viewer camera-orbit="30deg auto 100%" camera-controls disable-zoom disable-tap interaction-prompt="none" class="orgglb" src="images/orgglb.glb" alt="alt message"></model-viewer></div>
           <div class="org-txtbox">
             <div class="org-tab">インタビュー</div>
             <div class="org-ttl"></div>
+            <div class="org-glb m-org-glb"><model-viewer camera-orbit="30deg auto 100%" camera-controls touch-action="pan-y" disable-zoom disable-tap interaction-prompt="none" class="orgglb" src="images/orgglb.glb" alt="alt message"></model-viewer></div>
             <div class="org-imgbox">
               <div class="org-img org-img1"></div>
               <div class="org-imgback"></div>
@@ -237,7 +241,8 @@
               CG・ゲーム映像制作やAIソリューション開発、地域創生事業などを展開する東京都の「ORENDA WORLD」は2023年2月に天草市と進出協定を締結。人気アニメ「鬼滅の刃」「進撃の巨人」「僕のヒーローアカデミア」などのゲーム開発の一部を手掛けるなど、幅広く活動している。
             </div>
             <div class="org-txt">
-              <span class="org-txtttl">Q.ORENDA WORLDさんは、<span class="txtback-org">なぜ天草を選んだのでしょうか。</span></span><br />
+              <span class="org-txtttl">Q.ORENDA WORLDさんは、<span class="txtback-org">なぜ天草を選んだのでしょうか。</span></span
+              ><br />
               藤本さん:もともと地方創生事業に取り組みたいという想いがありました。ただ、単発で関わるのではなく、腰を据えて一緒につくっていける地域を探していたんです。その中で、天草市から声をかけていただきました。
             </div>
             <div class="org-txt">
@@ -245,7 +250,8 @@
               宇津川さん:正直、東京にいた頃よりもストレスはかなり減りました。 一番良かったのは満員電車がないこと。それに、街中の広告や情報が少ない。 余計な刺激が少なくて、思考がクリアになるんです。 クリエイティブを仕事とする私たちからすれば最適な場所だなと。
             </div>
             <div class="org-txt">
-              <span class="org-txtttl">Q.制作現場の中心である本社から大きく離れていますが、 <span class="txtback-org">仕事のパフォーマンスに影響はありますか?</span></span><br />
+              <span class="org-txtttl">Q.制作現場の中心である本社から大きく離れていますが、 <span class="txtback-org">仕事のパフォーマンスに影響はありますか?</span></span
+              ><br />
               宇津川さん:全く問題ありません。リモート環境が整った今、 場所による不利は感じませんし、むしろ集中力は上がっています。 本社の社員との定期的なミーティングはすべてオンラインで完結しますし、むしろ円滑になったくらいです。
             </div>
             <div class="org-imgbox">
@@ -309,7 +315,27 @@
               </div>
             </div>
           </div>
-          <div class="red-glb"><model-viewer camera-orbit="-60deg auto 100%" camera-controls disable-zoom disable-tap interaction-prompt="none" class="redglb" src="images/redglb.glb" alt="alt message"></model-viewer></div>
+          <div class="movie-box">
+            <div class="movie-item">
+              <iframe src="https://www.youtube.com/embed/0M3ibha7AAc?si=i1SVPNWB3lXl0JX6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="item-txt">企業誘致PRムービー</div>
+            </div>
+            <div class="movie-item">
+              <iframe src="https://www.youtube.com/embed/Kei5kT_TGsc?si=U2SDCyJpml812fce" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="item-txt">
+                天草工業高校情報技術科CG系列<br />
+                PRムービー（短編）
+              </div>
+            </div>
+            <div class="movie-item">
+              <iframe src="https://www.youtube.com/embed/Chzfc7JA5rM?si=aOA2y2D3mDCFWwcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="item-txt">
+                天草工業高校情報技術科CG系列<br />
+                PRムービー（本編
+              </div>
+            </div>
+          </div>
+          <div class="red-glb"><model-viewer camera-orbit="-60deg auto 100%" camera-controls touch-action="pan-y" disable-zoom disable-tap interaction-prompt="none" class="redglb" src="images/redglb.glb" alt="alt message"></model-viewer></div>
         </div>
       </section>
       <section id="green">
