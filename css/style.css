@@ -14,6 +14,10 @@
   --light-red-color: #fff3ef;
   --green-color: #22cd83;
   --light-green-color: #eff8f5;
+  --pctxt-fontsize: clamp(10px, 14px, 18px);
+  --pctxt-linehight: calc(var(--pctxt-fontsize) * 2);
+  --sptxt-fontsize: clamp(9px, 11px, 13px);
+  --sptxt-linehight: calc(var(--sptxt-fontsize) * 2);
   --light-weight: 300;
   --nomal-weight: 400;
   --bold-weight: 500;
@@ -521,8 +525,8 @@ section {
 
 .blue-txt {
   margin-top: 40px;
-  font-size: 14px;
-  line-height: 28px;
+  font-size: var(--pctxt-fontsize);
+  line-height: var(--pctxt-linehight);
   font-weight: var(--bold-weight);
 }
 
@@ -607,8 +611,8 @@ section {
 
   .blue-txt {
     margin-top: 40px;
-    font-size: 14px;
-    line-height: 28px;
+    font-size: var(--sptxt-fontsize);
+    line-height: var(--sptxt-linehight);
   }
 
   .blue-btnbox {
@@ -697,8 +701,8 @@ section {
 
 .org-txt {
   margin-top: 40px;
-  font-size: 14px;
-  line-height: 28px;
+  font-size: var(--pctxt-fontsize);
+  line-height: var(--pctxt-linehight);
   font-weight: var(--bold-weight);
 }
 
@@ -854,8 +858,8 @@ section {
 
   .org-txt {
     margin-top: 40px;
-    font-size: 14px;
-    line-height: 28px;
+    font-size: var(--sptxt-fontsize);
+    line-height: var(--sptxt-linehight);
     font-weight: var(--bold-weight);
   }
 
@@ -990,8 +994,8 @@ section {
 
 .red-txt {
   margin-top: 40px;
-  font-size: 14px;
-  line-height: 28px;
+  font-size: var(--pctxt-fontsize);
+  line-height: var(--pctxt-linehight);
   font-weight: var(--bold-weight);
 }
 
@@ -1093,8 +1097,8 @@ section {
 
   .red-txt {
     margin-top: 40px;
-    font-size: 14px;
-    line-height: 28px;
+    font-size: var(--sptxt-fontsize);
+    line-height: var(--sptxt-linehight);
   }
 
   .red-imgwapper {
@@ -1206,8 +1210,8 @@ section {
 
 .grn-txt {
   margin-top: 40px;
-  font-size: 14px;
-  line-height: 28px;
+  font-size: var(--pctxt-fontsize);
+  line-height: var(--pctxt-linehight);
   font-weight: var(--bold-weight);
 }
 
@@ -1268,8 +1272,8 @@ section {
 
   .grn-txt {
     margin-top: 40px;
-    font-size: 14px;
-    line-height: 28px;
+    font-size: var(--sptxt-fontsize);
+    line-height: var(--sptxt-linehight);
   }
 
   .grn-glb {
