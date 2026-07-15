@@ -946,6 +946,7 @@ section {
 
   .org-imgtxt {
     font-weight: var(--bold-weight);
+    font-size: var(--sptxt-fontsize);
     color: rgb(120, 120, 120);
   }
 }
