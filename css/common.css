@@ -153,7 +153,7 @@ body.no-scroll {
 }
 .slide-img2 {
   background-image: url(../images/wifi.svg);
-  background-size: 80%;
+  background-size: 70%;
 }
 .slide-img3 {
   background-image: url(../images/yachin.svg);
@@ -558,5 +558,4 @@ body.no-scroll {
   .carousel-wrapper {
     display: none;
   }
-
 }
