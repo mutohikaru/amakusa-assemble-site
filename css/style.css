@@ -808,6 +808,7 @@ section {
 
 .org-imgtxt {
   font-weight: var(--bold-weight);
+  font-size: var(--pctxt-fontsize);
   color: rgb(120, 120, 120);
 }
 
