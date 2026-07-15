@@ -915,6 +915,7 @@ section {
 
   .m-org-glb {
     display: block;
+    width: 100%;
   }
 
   .org-imgbox {
