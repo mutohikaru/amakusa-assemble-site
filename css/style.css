@@ -595,6 +595,8 @@ section {
 
   .blue-ctt {
     flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
   }
 
   .blue-txtbox {
@@ -659,8 +661,11 @@ section {
   }
 
   .m-blue-glb {
+    bottom: 50px;
     width: 100%;
     height: 200px;
+    position: absolute;
+    z-index: -3;
   }
 
   .blueglb {
@@ -1104,7 +1109,7 @@ section {
 
   .red-txtbox {
     margin: 0;
-    height: 350px;
+    height: 300px;
     width: 100%;
   }
 
