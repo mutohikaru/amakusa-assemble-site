@@ -1290,13 +1290,13 @@ section {
   }
 
   .grn-txtbox {
-    height: 50%;
+    height: 40%;
     width: 100%;
   }
 
   .grn-tab {
     border-left: 3px solid var(--green-color);
-    margin-top: 50px;
+    margin-top: 0;
     padding-left: 10px;
     height: 35px;
     width: 100%;
@@ -1324,8 +1324,7 @@ section {
 
   .m-grn-glb {
     width: 100%;
-    height: 200px;
-    margin-bottom: 80px;
+    height: 300px;
   }
 
   .grnglb {
