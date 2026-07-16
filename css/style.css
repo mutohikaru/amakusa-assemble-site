@@ -31,9 +31,9 @@
 
 @media screen and (max-width: 500px) {
   :root {
-    --main-hight: 5500px;
-    --blue-hight: 1000px;
-    --orange-hight: 3000px;
+    --main-hight: 5000px;
+    --blue-hight: 700px;
+    --orange-hight: 2800px;
     --red-hight: 1500px;
   }
 }
@@ -573,6 +573,14 @@ section {
   align-items: center;
 }
 
+.m-blue-glb{
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .blueglb {
   width: 750px;
   height: 750px;
@@ -647,6 +655,10 @@ section {
     width: 80%;
     background-image: url(../images/blueellipse.svg);
     background-position: center 75%;
+  }
+
+  .m-blue-glb{
+    height: 200px;
   }
 
   .blueglb {
@@ -1063,6 +1075,14 @@ section {
   align-items: center;
 }
 
+.m-red-glb{
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .redglb {
   width: 750px;
   height: 750px;
@@ -1163,6 +1183,10 @@ section {
     background-position: center 70%;
   }
 
+  .m-red-glb{
+    height: 200px;
+  }
+
   .redglb {
     width: 100%;
     height: 100%;
@@ -1233,6 +1257,14 @@ section {
   align-items: center;
 }
 
+.m-grn-glb{
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .grnglb {
   width: 750px;
   height: 750px;
@@ -1283,9 +1315,14 @@ section {
   }
 
   .grn-glb {
-    height: 50%;
+    height: 300px;
     width: 80%;
     background-position: center 90%;
+  }
+
+  .m-grn-glb{
+    height: 200px;
+    margin-bottom: 80px;
   }
 
   .grnglb {
