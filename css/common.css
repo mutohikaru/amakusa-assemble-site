@@ -210,7 +210,7 @@ body.no-scroll {
   background-repeat: no-repeat;
 }
 
-.item-subtxt {
+.itm-subtxt {
   height: auto;
   width: 100%;
   text-align: center;
@@ -564,5 +564,9 @@ body.no-scroll {
 @media screen and (max-width: 500px) {
   .carousel-wrapper {
     display: none;
+  }
+
+  .item-txt{
+    margin-top: 10px;
   }
 }
