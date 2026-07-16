@@ -14,9 +14,9 @@
   --light-red-color: #fff3ef;
   --green-color: #22cd83;
   --light-green-color: #eff8f5;
-  --pctxt-fontsize: clamp(10px, 14px, 18px);
+  --pctxt-fontsize: clamp(14px, 16px, 18px);
   --pctxt-linehight: calc(var(--pctxt-fontsize) * 2);
-  --sptxt-fontsize: clamp(9px, 11px, 13px);
+  --sptxt-fontsize: clamp(11px, 13px, 15px);
   --sptxt-linehight: calc(var(--sptxt-fontsize) * 2);
   --light-weight: 300;
   --nomal-weight: 400;
