@@ -22,10 +22,10 @@
   --nomal-weight: 400;
   --bold-weight: 500;
   --heavy-weight: 700;
-  --main-hight: 600dvh;
+  --main-hight: 550dvh;
   --blue-hight: 100dvh;
   --orange-hight: 350dvh;
-  --red-hight: 150dvh;
+  --red-hight: 100dvh;
   --green-hight: 100dvh;
 }
 
@@ -992,7 +992,7 @@ section {
 
 .red-txtbox {
   margin-right: 50px;
-  height: 500px;
+  height: 700px;
   width: 600px;
 }
 
